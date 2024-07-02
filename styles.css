@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Roboto:wght@400;700&display=swap");
 
 :root {
-  /* primary */
+  
   --Tomato: hsl(4, 100%, 67%);
   --orange: hsl(12, 100%, 53%);
   --Soft-red: hsl(350, 99%, 67%);
 
-  /* Neutral */
+
   --Dark-slate-grey: hsl(234, 29%, 20%);
   --Charcoal-grey: hsl(235, 18%, 26%);
   --Grey: hsl(231, 7%, 60%);
@@ -14,10 +14,10 @@
   --Shadow: hsla(4, 100%, 67%, 0.502);
   --errorbg: hsl(5, 100%, 95%);
 
-  /* font-size */
+
   --font-size: 1rem;
 
-  /* gradient */
+
   --gredient: linear-gradient(to right, var(--Soft-red), var(--Tomato));
 }
 
