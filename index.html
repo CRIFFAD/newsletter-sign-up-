@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Frontend mentor news letter challenge">
+  <meta name="author" content="Gift Amachree">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Newsletter sign-up form</title>
+
+
+</head>
+
+<body>
+  <main>
+    <section>
+      <picture class="bg">
+        <source media="(min-width: 768px)" srcset="./assets/images/illustration-sign-up-desktop.svg">
+        <img src="./assets/images/illustration-sign-up-mobile.svg" alt="background image">
+      </picture>
+
+      <div class="second-section">
+        <article>
+          <h1>Stay updated!</h1>
+          <p>Join 60,000+ product managers receiving monthly updates on:</p>
+          <ul>
+            <li><img src="./assets/images/icon-list.svg" alt="list icon">Product discovery and building what matters
+            </li>
+            <li><img src="./assets/images/icon-list.svg" alt="">Measuring to ensure updates are a success</li>
+            <li><img src="./assets/images/icon-list.svg" alt="">And much more!</li>
+          </ul>
+        </article>
+
+        <!-- Sign-up form start -->
+        <form>
+          <div>
+            <label for="email">Email address</label>
+            <p class="error"></p>
+          </div>
+          <input type="email" name="email" id="email" placeholder="email@company.com">
+          <button type="submit">Subscribe to monthly newsletter</button>
+        </form>
+        <!-- Sign-up form end -->
+      </div>
+    </section>
+
+    <!-- Success message start -->
+    <section class="succes-page">
+      <div class="container">
+        <img src="./assets/images/icon-success.svg" alt="sucess icon">
+        <h2>Thanks for subscribing!</h2>
+        <p>A confirmation email has been sent to <a href="#" class="getEmail">ash@loremcompany.com.</a>
+          Please open it and click the button inside to confirm your subscription.</p>
+        <button class="reset">Dismiss message</button>
+      </div>
+    </section>
+    <!-- Success message end -->
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.linkedin.com/in/gift-amachree-8a523623b/">Gift Amachree</a>.
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
